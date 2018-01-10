@@ -1,4 +1,4 @@
-window.onload = function() {
+$(document).ready(function() {
     if (window.jQuery) {  
         // jQuery is loaded  
         alert("Thanks for checking out my project! I'm a noob developer who is working on his web resume!");
@@ -6,7 +6,7 @@ window.onload = function() {
         // jQuery is not loaded
         alert("Doesn't Work");
     }
-}
+});
 
 $('li a').on('click', function () {
 
