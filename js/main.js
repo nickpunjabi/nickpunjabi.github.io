@@ -15,6 +15,9 @@ $('li a').on('click', function () {
 
 });
 
+
+/*
+// EmailJS Code - commented out for now
 var myform = $("form#myform");
 myform.submit(function(event){
   event.preventDefault();
@@ -23,6 +26,7 @@ myform.submit(function(event){
      obj[item.name] = item.value;
      return obj;
   }, {});
+
 
   // Change to your service ID, or keep using the default service
   var service_id = "default_service";
@@ -39,3 +43,5 @@ myform.submit(function(event){
     });
   return false;
 });
+
+
